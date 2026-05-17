@@ -329,29 +329,11 @@ ALB and EC2 were in different Availability Zones.
 
 ---
 
-# AWS Console Steps
 
-## Enable Stop Protection for EC2 Instance
-1. Open AWS Console.
-2. Go to EC2 Dashboard.
-3. Select region `us-east-1`.
-4. Click Instances.
-5. Select `nautilus-ec2`.
-6. Click Actions → Instance Settings → Change Stop Protection.
-7. Enable Stop Protection.
-8. Save changes.
 
 ---
 
-## Attach ENI to EC2 Instance
-1. Open EC2 Dashboard.
-2. Go to Network Interfaces.
-3. Select `nautilus-eni`.
-4. Click Actions → Attach.
-5. Select instance `nautilus-ec2`.
-6. Set Device Index = 1.
-7. Click Attach.
-8. Verify status becomes `attached`.
+
 
 ---
 

@@ -3,6 +3,17 @@
 ### Task
 Attach existing ENI `nautilus-eni` to EC2 instance `nautilus-ec2`.
 
+
+### Attach ENI to EC2 Instance
+1. Open EC2 Dashboard.
+2. Go to Network Interfaces.
+3. Select `nautilus-eni`.
+4. Click Actions → Attach.
+5. Select instance `nautilus-ec2`.
+6. Set Device Index = 1.
+7. Click Attach.
+8. Verify status becomes `attached`.
+
 ### AWS CLI Commands
 ```bash
 # Get instance ID
